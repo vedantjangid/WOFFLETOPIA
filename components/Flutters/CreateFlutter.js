@@ -68,12 +68,12 @@ const CreateFlutter = ({ setFlutters }) => {
   const showSuccess = () => {
     showNotification({
       title: "Success",
-      message: "Your flutter has been sent",
+      message: "Your woff has been sent",
       icon: <Check size={18} />,
       autoClose: 5000,
       styles: (theme) => ({
         root: {
-          borderColor: theme.colors.green[6],
+          borderColor: "black",
         },
       }),
     });
@@ -86,7 +86,7 @@ const CreateFlutter = ({ setFlutters }) => {
         <Group>
           <Textarea
             required
-            placeholder="Send a flutter..."
+            placeholder="Send a woff..."
             variant="filled"
             className={classes.media}
             {...form.getInputProps("flutter")}

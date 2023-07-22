@@ -80,7 +80,6 @@ const HeaderSearch = ({ setFlutters }) => {
             placeholder="Search"
             icon={<Search size={16} />}
           />
-          <ColorToggle />
         </Group>
       </div>
     </Header>

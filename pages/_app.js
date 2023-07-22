@@ -14,7 +14,7 @@ export default function App(props) {
   return (
     <>
       <Head>
-        <title>SocialButterfly - MongoDB Atlas Data API Demo</title>
+        <title>MEOWU</title>
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
@@ -32,14 +32,14 @@ export default function App(props) {
               theme={{
                 colors: {
                   brand: [
-                    "#00684A", // hightlight light
+                    "#F4F7F7", // hightlight light
                     "#fff",
                     "#fff",
                     "#fff",
                     "#fff",
-                    "#00ED64", // icon color dark
-                    "#00684A", // btn-primary light
-                    "#00ED64", // btn-hover light
+                    "#1F4E5F", // icon color dark
+                    "#79A8A9", // btn-primary light
+                    "#1F4E5F", // btn-hover light
                     "#00684A", // btn-primary dark
                     "#023430", // btn-hover, highlight dark
                   ],
